@@ -1,0 +1,124 @@
+.container {
+    max-width:90%;
+    padding: 1rem;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr ;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    @media (max-width: 640px) {
+        grid-template-columns: 1fr
+    }
+}
+
+.grid1 {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.grid img{
+    width: 100%;
+    border-radius: 2rem;
+
+}
+.description{
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+.company {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.comment {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.form{
+    display: block;
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+.form input:last-child{
+    color: white;
+    margin-top: 1rem;
+    font-size: 2rem;
+    background-color: var(--orange);
+    font-weight: 700;
+}
+
+.form input:last-child:hover{
+   cursor: pointer;
+
+}
+
+.comments {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+.grid2{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.grid2 p{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.grid2 button{
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    color :black;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 1rem;
+}
+
+.grid2 button:hover{
+    cursor: pointer;
+}
+
+.link {
+    display: block;
+    width: 100%;
+    background-color: var(--orange);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+

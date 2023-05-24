@@ -1,0 +1,73 @@
+.h1{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+.form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto 0 auto;
+    padding: 2rem;
+    padding: 4rem 3rem;
+    @media (max-width:500px){
+        margin-top: 0;
+    }
+}
+
+.form > div {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:500px){
+        flex-direction: column;
+    }
+}
+
+.form >div >label{
+    flex-basis: 20%;
+    font-size: 1.8rem;
+    @media (max-width:500px){
+        margin-bottom: .5rem;
+    }
+    
+}
+
+.form > div > input, .textarea{
+    flex:1;
+    padding: .5rem;
+    @media (max-width:500px){
+        width:100%
+    }
+}
+
+.form > input{
+    background-color: var(--orange);
+    width: 100%;
+    padding: 1.2rem;
+    border: none;
+    font-family: "PT Sans";
+    font-weight: 700;
+    color: #fff;
+}
+.form > input:hover {
+    cursor: pointer;
+}
+.error{
+    color: red;
+    padding: 0;
+    margin-bottom: .5rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: "PT Sans";
+}
+
+.alert {
+    padding: 2rem;
+    text-align: center;
+    color: green;
+    font-family: "PT Sans";
+    font-size: larger;
+}
+
+
